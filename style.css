@@ -1,0 +1,36 @@
+.smalltext {
+    font-size: 11px;
+}
+
+.row .row .col {
+    border-top: 1px lightblue solid;
+    border-bottom: 1px lightblue solid;
+}
+
+.hero1 {
+    background-image: url("https://www.jpmorgan.com/jpmjpg/1320690234678.jpg");
+    background-size: cover;
+}
+
+.hero2 {
+    background-image: url("https://www.jpmorgan.com/jpmjpg/1320690234722.jpg");
+    background-size: cover;
+}
+
+.hero3 {
+    background-image: url("https://www.jpmorgan.com/jpmjpg/1320690234700.jpg");
+    background-size: cover;
+}
+
+.flex {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.align-top {
+    align-self: flex-start;
+}
+
+.align-bottom {
+    align-self: flex-end;
+}
